@@ -18,9 +18,9 @@ LangChain's CodeAct agents combine LLM reasoning with code execution, enabling d
 
 This CodeAct agent helps you analyze Excel files using tools:
 
-* **preview_excel_structure**: First, it inspects the file to understand the column names and data types.
-* **complex_duckdb_query**: Then, it translates your question into SQL, runs the query via DuckDB, and preprocesses results for analysis.
-* **create_visualization**: If a visualization is requested (or helpful), it builds one automatically using Plotly.
+* ```preview_excel_structure``` First, it inspects the file to understand the column names and data types.
+* ```complex_duckdb_query``` Then, it translates your question into SQL, runs the query via DuckDB, and preprocesses results for analysis.
+* ```create_visualization``` If a visualization is requested (or helpful), it builds one automatically using Plotly.
 
 **❗ You can also bypass the built-in query and visualization tools by instructing the agent to ignore them. This will trigger its CodeAct capabilities to generate visualizations on its own!** 
 
