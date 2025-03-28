@@ -1,10 +1,7 @@
 # langgraph-codeact-excel-worker
 
-# Excel Analysis Agent (LangChain CodeAct)
-
 This project provides a LangChain **CodeAct agent** that enables robust, tool-driven Excel analysis using SQL (via DuckDB) and visualization (via Plotly). It’s designed to be **plug-and-play**, intuitive, and resilient for real-world Excel data.
 
----
 
 ## Tools
 
@@ -14,7 +11,6 @@ This project provides a LangChain **CodeAct agent** that enables robust, tool-dr
 | `complex_duckdb_query`    | Executes SQL queries using DuckDB, optimized for Excel and null-safe logic. |
 | `create_visualization`    | Converts query results into Plotly visualizations with smart layouting.     |
 
----
 
 ## How It Works
 
