@@ -34,7 +34,7 @@ To run the agent, find the ```stream_from_agent()``` or ```run_agent()``` functi
 * ```user_query```: Your question (can include instructions like "ignore tools" or "visualize this")
 * ```config```: Default recursion/thread options (already set to safe defaults)
 
-### Key Capabilities
+## Key Capabilities
 
 * Upload .xlsx files with any tabular data
 * Ask SQL-like questions in plain English
