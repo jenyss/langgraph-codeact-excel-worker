@@ -2,6 +2,8 @@
 
 This Agent helps you analyze Excel files with SQL and generate high-quality visualizations — powered by LangChain's new CodeAct agent type!
 
+Check the Agent execution output in the Notebook to enjoy how it works!
+
 If you have any questions or would like to collaborate, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/jenya-stoeva-60477249/). You're more than welcome!
 
 ## What is CodeAct
