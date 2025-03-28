@@ -2,6 +2,8 @@
 
 This Agent helps you analyze Excel files with SQL and generate high-quality visualizations — powered by LangChain's new CodeAct agent type!
 
+If you have any questions or would like to collaborate, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/jenya-stoeva-60477249/). You're more than welcome!
+
 ## What is CodeAct
 
 LangChain's CodeAct agents combine LLM reasoning with code execution, enabling dynamic problem solving through Python code. Rather than just calling predefined tools, CodeAct agents can generate, execute, and revise code on-the-fly using the tools you give them. This means your agent becomes:
