@@ -42,7 +42,7 @@ To run the agent, find the ```stream_from_agent()``` or ```run_agent()``` functi
 
 * Upload .xlsx files with any tabular data
 * Ask SQL-like questions in plain English
-* Get structured outputs or interactive visualizations (bar, line, pie, heatmap, Sankey, etc.)
+* Get structured outputs or interactive visualizations (bar, line, pie, heatmap, sankey, etc.)
 * Automatically handles missing data, formatting issues, type mismatches
 * **Works even if you ask it to ignore its tools and generate visualizations freely**
 
