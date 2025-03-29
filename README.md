@@ -20,7 +20,7 @@ The repository features 3 examples demonstrating how CodeAct integrates with too
 
 ### ```preview-tool-visualize-codeact```
 
-The agent invokes the ```preview_excel_structure``` tool, then delegates the remaining task execution to the CodeAct mode. Tool usage is enforced by the system prompt.
+The agent invokes the ```preview_excel_structure``` tool, then delegates the remaining sub-tasks execution to the CodeAct mode ((meaning the agent generates and executes the code to complete a sub-task)). Tool usage is enforced by the system prompt.
 
 **Workflow**
 
@@ -47,7 +47,7 @@ The agent invokes all three tools to complete the user task. Tool usage is enfor
 
 ### ```preview_sql_tools_visualize_codeact```
 
-The agent invokes the ```preview_excel_structure``` & ```complex_duckdb_query``` tools, then delegates the visualization sub-task execution to the CodeAct mode (meaning the agent generates and executes the code to complete the task). Tool usage is enforced by the system prompt.
+The agent invokes the ```preview_excel_structure``` & ```complex_duckdb_query``` tools, then delegates the visualization sub-task execution to the CodeAct mode. Tool usage is enforced by the system prompt.
 The output in the ```preview_sql_tools_visualize_codeact``` notebook demonstrates how the agent iteratively attempted to generate a visualization, self-correcting along the way until it succeeded.
 
 **Workflow**
