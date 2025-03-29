@@ -17,11 +17,14 @@ LangChain's CodeAct agents combine LLM reasoning with code execution, enabling d
 
 ## How It Works
 
+There are 3 different examples, illustrating how CodeAct can be combined with tools:
+
+
 ### ```preview-tool-visualize-codeact```
 
-This CodeAct agent allows you to explore and visualize Excel data by combining structural preview, SQL querying, and automatic chart generation, following a controlled execution flow enforced by a custom system prompt.
+The agent invokes the ```preview_excel_structure``` tool, then delegates the remaining task execution to the CodeAct logic. Tool usage is enforced by the system prompt.
 
-It supports the following workflow:
+**Workflow**
 
 * The agent uses the ```preview_excel_structure``` tool to inspect the file, including column names, data types, and sample values.
 * ```CodeAct``` follows the system prompt instructions to translate the user's question into a DuckDB SQL query based on the detected columns.
@@ -29,14 +32,25 @@ It supports the following workflow:
 * Finally, the agent displays the result and completes the task only if all steps are successfully executed.
 
 
-### ```langgraph-codeact-excel-worker```
+### ```visualize_tools_run_codeact```
 
-**NEEDS FIXING**
-This CodeAct agent helps you analyze Excel files using tools:
+The agent invokes all three tools to complete the task. Tool usage is enforced by the system prompt.
 
-* ```preview_excel_structure``` First, it inspects the file to understand the column names and data types.
-* ```complex_duckdb_query``` Then, it translates your question into SQL, runs the query via DuckDB, and preprocesses results for analysis.
-* ```create_visualization``` If a visualization is requested (or helpful), it builds one automatically using Plotly.
+**Workflow**
+
+* ```preview_excel_structure``` First, the agent inspects the Excel file to identify column names and data types.
+* ```complex_duckdb_query``` Next, it translates the user input into SQL and executes it using DuckDB.
+* ```create_visualization``` Finally, if a visualization is requested or deemed useful, the agent uses Plotly to generate the chart.
+
+### ```preview_sql_tools_visualize_codeact```
+
+The agent invokes the ```preview_excel_structure``` & ```complex_duckdb_query``` tools, then delegates the visualization task execution to the CodeAct logic. Tool usage is enforced by the system prompt.
+
+**Workflow**
+
+* ```preview_excel_structure``` First, the agent inspects the Excel file to identify column names and data types.
+* ```complex_duckdb_query``` Next, it translates the user input into SQL and executes it using DuckDB.
+* ```CodeAct``` Finally, if a visualization is requested or deemed useful, the agent uses Plotly to generate the chart.
 
 
 ## How-To
