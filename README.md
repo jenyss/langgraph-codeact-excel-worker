@@ -28,14 +28,6 @@ This CodeAct agent helps you analyze Excel files using tools:
 * ```complex_duckdb_query``` Then, it translates your question into SQL, runs the query via DuckDB, and preprocesses results for analysis.
 * ```create_visualization``` If a visualization is requested (or helpful), it builds one automatically using Plotly.
 
-**❗ You can also bypass the built-in query and visualization tools by instructing the agent to ignore them. This will trigger its CodeAct capabilities to generate visualizations on its own!** 
-
-The agent is instructed to:
-* Clean data on ingest (whitespace, empty strings, various NaN values)
-* Always validate SQL syntax
-* Avoid using NULL or negative values by default
-* Explain and format visualizations properly
-
 ## How-To
 
 To run the agent, find the ```stream_from_agent()``` or ```run_agent()``` function at the end of the notebook. Configure the following:
