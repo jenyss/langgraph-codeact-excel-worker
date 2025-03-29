@@ -55,8 +55,6 @@ To run the agent, find the ```stream_from_agent()``` or ```run_agent()``` functi
 * Execution: Local Python sandbox with eval() and stdout capture
 * Data Engine: DuckDB for SQL queries
 * Visualization: Plotly Express / Graph Objects
-* Input: JSON-formatted strings for structured tool calls
-* Output: Human-readable messages + JSON results
 
 
 
