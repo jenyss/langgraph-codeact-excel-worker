@@ -18,10 +18,19 @@ LangChain's CodeAct agents combine LLM reasoning with code execution, enabling d
 
 ### ```preview-tool-visualize-codeact```
 
+This CodeAct agent allows you to explore and visualize Excel data by combining structural preview, SQL querying, and automatic chart generation, following a controlled execution flow enforced by a custom system prompt.
+
+It supports the following workflow:
+
+* Preview the file using ```preview_excel_structure``` to inspect column names, data types, and sample values.
+* Translate user questions into DuckDB SQL queries based on the detected columns.
+* Generate a visualization using Plotly, with support for user-specified chart types like bar, line, or Sankey.
+* Display the result and finish the task only when all steps succeed.
 
 
 ### ```langgraph-codeact-excel-worker```
 
+**NEEDS FIXING**
 This CodeAct agent helps you analyze Excel files using tools:
 
 * ```preview_excel_structure``` First, it inspects the file to understand the column names and data types.
