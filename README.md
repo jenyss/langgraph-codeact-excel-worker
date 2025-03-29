@@ -1,6 +1,6 @@
 # langgraph-codeact-excel-worker
 
-This Agent helps you analyze Excel files with SQL and generate high-quality visualizations — powered by LangChain's new CodeAct agent type!
+This repository showcases examples of how to preview, query, and visualize data from Excel files — all powered by LangChain’s new CodeAct agent type!
 
 **Check the Agent execution output in the Notebook to enjoy how it works!**
 
