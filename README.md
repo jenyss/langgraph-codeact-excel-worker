@@ -2,8 +2,6 @@
 
 This repository showcases examples of how to preview, query, and visualize data from Excel files — all powered by LangChain’s new CodeAct agent type!
 
-**Check the Agent execution output in the Notebook to enjoy how it works!**
-
 If you have any questions or would like to collaborate, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/jenya-stoeva-60477249/). You're more than welcome!
 
 ## What is CodeAct
@@ -17,7 +15,7 @@ LangChain's CodeAct agents combine LLM reasoning with code execution, enabling d
 
 ## How It Works
 
-The repository features 3 examples showcasing how CodeAct integrates with tools to perform tasks end-to-end.
+The repository features 3 examples demonstrating how CodeAct integrates with tools to perform tasks end-to-end.
 
 
 ### ```preview-tool-visualize-codeact```
