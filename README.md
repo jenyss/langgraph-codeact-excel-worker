@@ -44,6 +44,8 @@ The agent invokes all three tools to complete the task. Tool usage is enforced b
 * ```complex_duckdb_query``` Next, it translates the user input into SQL and executes it using DuckDB.
 * ```create_visualization``` Finally, if a visualization is requested or deemed useful, the agent uses Plotly to generate the chart.
 
+![visualize_tools_run_codeact visualization](visualize_tools_run_codeact.png)
+
 ### ```preview_sql_tools_visualize_codeact```
 
 The agent invokes the ```preview_excel_structure``` & ```complex_duckdb_query``` tools, then delegates the visualization task execution to the CodeAct logic. Tool usage is enforced by the system prompt.
