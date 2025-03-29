@@ -57,6 +57,8 @@ The output in the ```preview_sql_tools_visualize_codeact``` notebook demonstrate
 * ```complex_duckdb_query``` Next, it translates the user input into SQL and executes it using DuckDB.
 * ```CodeAct``` Finally, if a visualization is requested or deemed useful, the agent uses Plotly to generate the chart.
 
+![preview_sql_tools_visualize_codeact visualization](preview_sql_tools_visualize_codeact.png)
+
 
 ## How-To
 
