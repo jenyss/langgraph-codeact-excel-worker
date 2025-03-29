@@ -6,11 +6,10 @@ If you have any questions or would like to collaborate, feel free to reach out t
 
 ## What is CodeAct
 
-LangChain's CodeAct agents combine LLM reasoning with code execution, enabling dynamic problem solving through Python code. Rather than just calling predefined tools, CodeAct agents can generate, execute, and revise code on-the-fly using the tools you give them. This means your agent becomes:
+LangChain's CodeAct agents combine LLM reasoning with code execution, enabling dynamic problem solving through Python code. Rather than just calling predefined tools, CodeAct agents can generate, execute, and revise code on-the-fly to accomplish a task. This enables the agent to become:
 
-* More flexible (able to work around missing tools)
-* Safer (code runs in a local sandbox)
-* Smarter (can generate multi-step logic, validate outputs, and even create visualizations dynamically)
+* More flexibile (able to work around missing tools)
+* Smarter (can generate multi-step logic, validate outputs and self-correct)
 
 
 ## How It Works
