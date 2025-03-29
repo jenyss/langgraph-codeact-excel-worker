@@ -24,7 +24,7 @@ The agent invokes the ```preview_excel_structure``` tool, then delegates the rem
 
 **Workflow**
 
-* The agent uses the ```preview_excel_structure``` tool to inspect the file, including column names and sample values and then hands over to CodeAct.
+* The agent uses the ```preview_excel_structure``` tool to inspect the file, including column names and sample values and then hands over to ```CodeAct``` mode.
 * ```CodeAct``` follows the system prompt instructions to translate the user's question into a DuckDB SQL query based on the detected columns.
 * ```CodeAct``` generates Plotly visualization, considering the user's preferred chart type if specified.
 * Finally, the agent displays the result and completes the task only if all steps are successfully executed.
