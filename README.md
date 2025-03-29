@@ -17,7 +17,7 @@ LangChain's CodeAct agents combine LLM reasoning with code execution, enabling d
 
 ## How It Works
 
-There are 3 different examples, illustrating how CodeAct can be combined with tools:
+The repository features 3 examples showcasing how CodeAct integrates with tools to perform tasks end-to-end.
 
 
 ### ```preview-tool-visualize-codeact```
