@@ -16,6 +16,12 @@ LangChain's CodeAct agents combine LLM reasoning with code execution, enabling d
 
 ## How It Works
 
+### ```preview-tool-visualize-codeact```
+
+
+
+### ```langgraph-codeact-excel-worker```
+
 This CodeAct agent helps you analyze Excel files using tools:
 
 * ```preview_excel_structure``` First, it inspects the file to understand the column names and data types.
