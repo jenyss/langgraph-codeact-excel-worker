@@ -23,10 +23,10 @@ This CodeAct agent allows you to explore and visualize Excel data by combining s
 
 It supports the following workflow:
 
-* Preview the file using ```preview_excel_structure``` to inspect column names, data types, and sample values.
-* Translate user questions into DuckDB SQL queries based on the detected columns.
-* Generate a visualization using Plotly, with support for user-specified chart types like bar, line, or Sankey.
-* Display the result and finish the task only when all steps succeed.
+* The agent uses the ```preview_excel_structure``` tool to inspect the file, including column names, data types, and sample values.
+* ```CodeAct``` follows the system prompt instructions to translate the user's question into a DuckDB SQL query based on the detected columns.
+* ```CodeAct``` generates Plotly visualization, considering the user's preferred chart type if specified.
+* Finally, the agent displays the result and completes the task only if all steps are successfully executed.
 
 
 ### ```langgraph-codeact-excel-worker```
