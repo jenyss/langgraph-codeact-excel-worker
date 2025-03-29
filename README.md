@@ -41,6 +41,7 @@ The agent invokes all three tools to complete the task. Tool usage is enforced b
 * First, the agent inspects the Excel file using the ```preview_excel_structure``` tool to identify column names and data types.
 * Next, it translates the user input into SQL and executes it using the ```complex_duckdb_query``` tool.
 * Finally, if a visualization is requested or deemed useful, the agent uses ```create_visualization``` tool to generate Plotly chart.
+* No hand over to CodeAct.
 
 ![visualize_tools_run_codeact visualization](visualize_tools_run_codeact.png)
 
