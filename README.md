@@ -14,6 +14,7 @@ LangChain's CodeAct agents combine LLM reasoning with code execution, enabling d
 * Safer (code runs in a local sandbox)
 * Smarter (can generate multi-step logic, validate outputs, and even create visualizations dynamically)
 
+
 ## How It Works
 
 ### ```preview-tool-visualize-codeact```
@@ -37,6 +38,7 @@ This CodeAct agent helps you analyze Excel files using tools:
 * ```complex_duckdb_query``` Then, it translates your question into SQL, runs the query via DuckDB, and preprocesses results for analysis.
 * ```create_visualization``` If a visualization is requested (or helpful), it builds one automatically using Plotly.
 
+
 ## How-To
 
 To run the agent, find the ```stream_from_agent()``` or ```run_agent()``` function at the end of the notebook. Configure the following:
@@ -44,14 +46,7 @@ To run the agent, find the ```stream_from_agent()``` or ```run_agent()``` functi
 * ```file_name```: The path to your Excel file (single-sheet only for now)
 * ```user_query```: Your question (can include instructions like "ignore tools" or "visualize this")
 * ```config```: Default recursion/thread options (already set to safe defaults)
-
-## Key Capabilities
-
-* Upload .xlsx files with any tabular data
-* Ask SQL-like questions in plain English
-* Get structured outputs or interactive visualizations (bar, line, pie, heatmap, sankey, etc.)
-* Automatically handles missing data, formatting issues, type mismatches
-* **Works even if you ask it to ignore its tools and generate visualizations freely**
+  
 
 ## Technical Highlights
 
