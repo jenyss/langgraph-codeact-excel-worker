@@ -20,7 +20,7 @@ The repository features 3 examples demonstrating how CodeAct integrates with too
 
 ### ```preview-tool-visualize-codeact```
 
-The agent invokes the ```preview_excel_structure``` tool, then delegates the remaining task execution to the CodeAct logic. Tool usage is enforced by the system prompt.
+The agent invokes the ```preview_excel_structure``` tool, then delegates the remaining task execution to the CodeAct mode. Tool usage is enforced by the system prompt.
 
 **Workflow**
 
