@@ -24,7 +24,7 @@ The agent invokes the ```preview_excel_structure``` tool, then delegates the rem
 
 **Workflow**
 
-* The agent uses the ```preview_excel_structure``` tool to inspect the file, including column names, data types, and sample values.
+* The agent uses the ```preview_excel_structure``` tool to inspect the file, including column names and sample values and then hands over to CodeAct.
 * ```CodeAct``` follows the system prompt instructions to translate the user's question into a DuckDB SQL query based on the detected columns.
 * ```CodeAct``` generates Plotly visualization, considering the user's preferred chart type if specified.
 * Finally, the agent displays the result and completes the task only if all steps are successfully executed.
@@ -38,9 +38,9 @@ The agent invokes all three tools to complete the task. Tool usage is enforced b
 
 **Workflow**
 
-* ```preview_excel_structure``` First, the agent inspects the Excel file to identify column names and data types.
-* ```complex_duckdb_query``` Next, it translates the user input into SQL and executes it using DuckDB.
-* ```create_visualization``` Finally, if a visualization is requested or deemed useful, the agent uses Plotly to generate the chart.
+* First, the agent inspects the Excel file using the ```preview_excel_structure``` tool to identify column names and data types.
+* Next, it translates the user input into SQL and executes it using the ```complex_duckdb_query``` tool.
+* Finally, if a visualization is requested or deemed useful, the agent uses ```create_visualization``` tool to generate Plotly chart.
 
 ![visualize_tools_run_codeact visualization](visualize_tools_run_codeact.png)
 
@@ -51,9 +51,9 @@ The output in the ```preview_sql_tools_visualize_codeact``` notebook demonstrate
 
 **Workflow**
 
-* ```preview_excel_structure``` First, the agent inspects the Excel file to identify column names and data types.
-* ```complex_duckdb_query``` Next, it translates the user input into SQL and executes it using DuckDB.
-* ```CodeAct``` Finally, if a visualization is requested or deemed useful, the agent uses Plotly to generate the chart.
+* First, the agent inspects the Excel file using the ```preview_excel_structure``` tool to identify column names and data types.
+* Next, it translates the user input into SQL and executes it using the ```complex_duckdb_query``` tool. 
+* For the final step, the agent enters ```CodeAct``` mode and generates a visualization using Plotly, if requested by the user.
 
 ![preview_sql_tools_visualize_codeact visualization](preview_sql_tools_visualize_codeact.png)
 
