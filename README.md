@@ -42,7 +42,7 @@ The agent invokes all three tools to complete the user task. Tool usage is enfor
 * Finally, if a visualization is requested or deemed useful, the agent uses ```create_visualization``` tool to generate Plotly chart.
 * No hand over to ```CodeAct sub-task```.
 
-![visualize_tools_run_codeact visualization](visualize_tools_run_codeact.png)
+![visualize_tools_run_codeact visualization](images/visualize_tools_run_codeact.png)
 
 ### ```preview_sql_tools_visualize_codeact```
 
@@ -55,7 +55,7 @@ The output in the ```preview_sql_tools_visualize_codeact``` notebook demonstrate
 * Next, it translates the user input into SQL and executes it using the ```complex_duckdb_query``` tool. 
 * For the final step, the agent executes ```CodeAct sub-task``` to generate a visualization using Plotly, if requested by the user.
 
-![preview_sql_tools_visualize_codeact visualization](preview_sql_tools_visualize_codeact.png)
+![preview_sql_tools_visualize_codeact visualization](images/preview_sql_tools_visualize_codeact.png)
 
 
 ## How-To
