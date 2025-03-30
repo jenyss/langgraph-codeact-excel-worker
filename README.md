@@ -28,7 +28,7 @@ The agent invokes the ```preview_excel_structure``` tool, then delegates the rem
 * ```CodeAct sub-task``` generates Plotly visualization, considering the user's preferred chart type if specified.
 * Finally, the agent displays the result and completes the task only if all steps are successfully executed.
 
-![preview-tool-visualize-codeact visualization](preview-tool-visualize-codeact.png)
+![preview-tool-visualize-codeact visualization](images/preview-tool-visualize-codeact.png)
 
 
 ### ```visualize_tools_run_codeact```
