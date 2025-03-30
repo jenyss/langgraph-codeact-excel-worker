@@ -1,6 +1,6 @@
 # langgraph-codeact-excel-worker
 
-This repository showcases examples of how to preview, query, and visualize data from Excel files — all powered by LangChain’s new CodeAct agent type!
+This repository showcases examples of how to preview, query, and visualize data from Excel files — all powered by LangChain’s new CodeAct agent type: [langgraph-codeact](https://github.com/langchain-ai/langgraph-codeact)
 
 If you have any questions or would like to collaborate, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/jenya-stoeva-60477249/). You're more than welcome!
 
