@@ -46,7 +46,7 @@ The agent executes all three tools to complete the user task. Tool usage is enfo
 
 ### ```preview_sql_tools_visualize_codeact```
 
-The agent invokes the ```preview_excel_structure``` & ```complex_duckdb_query``` tools, then delegates the visualization sub-task execution to the CodeAct mode. Tool usage is enforced by the system prompt.
+The agent executes the ```preview_excel_structure``` & ```complex_duckdb_query``` tools, then delegates the visualization sub-task execution to the CodeAct mode (generate & execute code). Tool usage is enforced by the system prompt.
 The output in the ```preview_sql_tools_visualize_codeact``` notebook demonstrates how the agent iteratively attempted to generate a visualization, self-correcting along the way until it succeeded.
 
 **Workflow**
