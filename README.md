@@ -33,7 +33,7 @@ The agent executes the ```preview_excel_structure``` tool, then delegates the re
 
 ### ```visualize_tools_run_codeact```
 
-The agent invokes all three tools to complete the user task. Tool usage is enforced by the system prompt.
+The agent executes all three tools to complete the user task. Tool usage is enforced by the system prompt.
 
 **Workflow**
 
