@@ -15,7 +15,7 @@ LangChain's CodeAct agents combine LLM reasoning with code execution, enabling d
 
 ## How It Works
 
-The repository features 3 examples demonstrating how CodeAct integrates with tools to perform tasks end-to-end. The agent generates Python code to either execute the pre-defined tools or to implement sub-tasks in order to accomplish the given user-defined task. /n
+The repository features 3 examples demonstrating how CodeAct integrates with tools to perform tasks end-to-end. The agent generates Python code to either execute the pre-defined tools or to implement sub-tasks in order to accomplish the given user-defined task. <br>
 ❗ What you really need to pay attention to is the sytem prompt. You have to define it in a way that the agent understands how to seamlessly switch between tool use and CodeAct mode and persist the outcome of each individual step for reuse in the following steps. I found this not trivial at all and the prompt examples in the agents here are not perfect.
 
 
