@@ -3,7 +3,7 @@
 This repository showcases examples of how to preview, query, and visualize data from Excel files — all powered by LangChain’s new CodeAct agent type: [langgraph-codeact](https://github.com/langchain-ai/langgraph-codeact),
 [Executable Code Actions Elicit Better LLM Agents](https://arxiv.org/abs/2402.01030)
 
-If you have any questions or would like to collaborate, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/jenya-stoeva-60477249/). You're more than welcome!
+If you have any questions or would like to collaborate, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/jenya-stoeva-60477249/). You're more than welcome.
 
 ## What is CodeAct
 
